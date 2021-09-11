@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Cash Register</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Cash Register</h1>
+        <p class="description">Enter the bill amount and cash given by the customer to know 
+            minimum number of notes to be return
+        </p>
+        <label for="bill-amount">Bill Amount</label><br />
+        <input id="bill-amount" type="text" placeholder="Enter the Bill Amount" /> <br />
+        <label for="cash-amount">Cash Given</label> <br />
+        <input id="cash-amount" type="text" placeholder="Enter the Cash Amount" /> <br /><br />
+        <button id="next-btn">Check</button>
+        <p id="error-msg"></p>
+        <table class="table-change"> 
+            <caption>Return Change</caption>
+            <tr>
+                <th>No. of notes</th>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
